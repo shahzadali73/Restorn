@@ -24,7 +24,7 @@ function Home() {
 
             <div className="right-box">
               <div className="img-box">
-                <img src="src/assets/img/hero.png" alt="" />
+                <img src="img/hero.png" alt="" />
               </div>
             </div>
           </div>
