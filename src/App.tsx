@@ -1,22 +1,8 @@
-import Section1 from "./Home";
-import Section2 from "./Services";
-import Navbar from "./Navbar";
-import Section3 from "./assets/Aboutus";
-import Section5 from "./BookaTable";
-import Section6 from "./OurTeam";
-import Section7 from "./Review";
-import Footer from "./Footer";
 import Wrapper from "./Wrapper";
 
 import "./App.css";
-import {
-  BrowserRouter,
-  Route,
-  Routes,
-  ServerRouter,
-  useParams,
-} from "react-router-dom";
-import AboutUs from "./about-us";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+
 // import Home from "./Home";
 import React, { Suspense } from "react";
 

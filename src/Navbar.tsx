@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
 import "./Navbar.css";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
 
 function Navbar() {
-  const [input, setInput] = useState("");
+  const [] = useState("");
   const [toggle, togglebotton] = useState(true);
 
   function handleHanm() {

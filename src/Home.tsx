@@ -35,7 +35,3 @@ function Home() {
 }
 
 export default Home;
-
-const Comp1 = ({ children }: any) => {
-  return <>{children}</>;
-};
