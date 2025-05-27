@@ -1,0 +1,178 @@
+.main-content {
+    width: 100%;
+    max-width: 100%;
+    height: 600px;
+    position: relative;
+    top: 70px;
+    display: flex;
+
+}
+
+
+
+
+.box1 {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+
+
+    justify-content: space-evenly;
+
+
+
+}
+
+.box2 {
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.image1 {
+    height: 214x;
+
+    width: 214px;
+
+    border: 2px solid black;
+
+}
+
+.image2 {
+    height: 160px;
+    width: 100%;
+    max-width: 160px;
+    position: relative;
+    right: 159px;
+    top: 54px;
+
+
+
+
+
+}
+
+
+
+.image3 {
+    height: 160px;
+    width: 100%;
+    max-width: 160px;
+    position: relative;
+    left: 54px;
+    top: 29px;
+}
+
+
+
+
+.image4 {
+    height: 214x;
+    width: 100%;
+    max-width: 214px;
+    position: relative;
+    right: 102px;
+    top: 29px;
+
+
+}
+
+.s3-left-cont {
+    width: 100%;
+    max-width: 60%;
+
+}
+
+
+
+.about-us-container {
+    width: 100%;
+    max-width: 30%;
+
+}
+
+
+
+
+
+
+
+
+
+
+.heading {
+    font-family: Pacifico, cursive;
+    color: #fea116;
+    font-size: 20px;
+    font-weight: 600px;
+    border-bottom: 2px solid #fea116;
+}
+
+.welcome-to-rest {
+    color: #0F172B;
+    font-weight: 800;
+    font-family: "Nunito", sans-serif;
+    width: auto;
+    margin-top: 10px;
+    font-size: xx-large;
+
+}
+
+.para2 {
+    margin-top: 10px;
+}
+
+
+
+
+.experience {
+    margin-top: 25px;
+    display: flex;
+    position: relative;
+    left: -20px;
+}
+
+.container-number1 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.year {
+    color: #fea116;
+    font-weight: 800;
+    font-size: xx-large;
+    border-left: 7px solid #fea116;
+    border-radius: 10%;
+    padding: 10px;
+}
+
+.container-number2 {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+
+}
+
+.btn-read {
+    height: 40px;
+    width: 150px;
+    margin-top: 25px;
+    background-color: #fea116;
+    color: aliceblue;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    font-weight: 800;
+
+}
+
+.btn-read:hover {
+    background-color: #0F172B;
+    color: #FEA116 !important;
+    font-weight: 800;
+}

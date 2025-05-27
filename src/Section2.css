@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    /* border: solid 2px black !important; */
+    height: 250px !important;
+    width: 100%;
+    max-width: 280px !important;
+    padding: 5px;
+
+
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    transition: .5s !important;
+
+
+}
+
+:hover.main {
+    background-color: #FEA116;
+    color: #f1f8ff;
+
+}
+
+.logo1 {
+    height: 80px;
+    width: 100%;
+    max-width: 80px;
+    font-size: 60px !important;
+    padding: 10px;
+    margin-left: 10px;
+
+}
+
+.name {
+
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    /* color: #0F172B; */
+    margin-left: 16px;
+}
+
+
+.dis {
+    font-family: "Heebo", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    /* color: #666565; */
+    margin-top: 15px;
+    margin-left: 16px;
+}
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px;
+    margin-top: 60px;
+}

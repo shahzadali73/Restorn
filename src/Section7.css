@@ -1,0 +1,94 @@
+.s7-main-div {
+    margin-top: 100px;
+}
+
+.review {
+    text-align: center;
+}
+
+.Testimonial {
+    font-family: Pacifico, cursive;
+    font-size: 2.25rem;
+    font-weight: 900;
+    color: #FEA116;
+}
+
+.Our-Clients-Say {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+    font-size: 3.25rem;
+    margin-top: 7px;
+}
+
+.r3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cardreview1 {
+    margin-top: 30px;
+    width: 100%;
+    max-width: 330px !important;
+    height: 260px !important;
+    justify-content: space-around;
+
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+    height: calc(100% - 30px);
+    transition: .5s;
+
+}
+
+.card-2 {
+    position: relative;
+    left: 27px;
+}
+
+.coma {
+    height: 32px;
+    width: 100%;
+    max-width: 32px;
+    margin-top: 18px;
+}
+
+.cost-review {
+
+    margin-top: 18px;
+}
+
+.const-detail {
+    display: flex;
+    margin-top: 18px;
+}
+
+.const-img {
+    border-radius: 50%;
+    height: 80px;
+    width: 100%;
+    max-width: 80px;
+}
+
+.jhon2 {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 30px;
+    left: 15px;
+}
+
+.client-name1 {
+    font-family: "Nunito", sans-serif;
+    font-weight: 800;
+    line-height: 1.2;
+    color: #0F172B;
+    font-size: 1.25rem;
+}
+
+
+.client-profession1 {
+    font-size: .875em;
+    font-weight: 100;
+}
