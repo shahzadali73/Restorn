@@ -5,7 +5,7 @@ function BookaTable() {
     <>
       <div className="s5-main-cont">
         <div className="s5-img-cont">
-          <img className="img-detail" src="src/assets/img/video.jpg" alt="" />
+          <img className="img-detail" src="img/video.jpg" alt="" />
         </div>
         <div className="detail-form">
           <div className="form">

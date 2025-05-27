@@ -30,7 +30,7 @@ export function Mastercard() {
     <>
       <div className="main-card">
         <div>
-          <img src="src/assets/img/team-1.jpg" alt="" className="chief-img" />
+          <img src="img/team-1.jpg" alt="" className="chief-img" />
         </div>
         <div className="cheif-detail">
           <div>

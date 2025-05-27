@@ -61,7 +61,7 @@ export function Fooditem({ name2 }: any) {
     <>
       <div className="food-item-detail">
         <div className="food-img">
-          <img src="src/assets/img/menu-1.jpg" alt="" />
+          <img src="img/menu-1.jpg" alt="" />
         </div>
         <div className="foo-detail">
           <div className="price-food">

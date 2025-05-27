@@ -40,11 +40,7 @@ export function Reviewcard() {
           </p>
 
           <div className="const-detail">
-            <img
-              src="src/assets/img/testimonial-1.jpg"
-              className="const-img"
-              alt=""
-            />
+            <img src="img/testimonial-1.jpg" className="const-img" alt="" />
             <div className="jhon2">
               {" "}
               <h3 className="client-name1">Jhon</h3>

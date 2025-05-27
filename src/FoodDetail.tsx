@@ -8,7 +8,7 @@ function FoodDetail() {
         <div className="img-foo1">
           <img
             className="food-img4"
-            src="src/assets/img/anami-asia-kitchen-bar.jpg"
+            src="img/anami-asia-kitchen-bar.jpg"
             alt=""
           />
         </div>

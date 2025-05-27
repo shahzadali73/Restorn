@@ -5,12 +5,12 @@ function Aboutus() {
     <div className="main-content">
       <div className="s3-left-cont">
         <div className="box1">
-          <img src="src/assets/img/about-1.jpg" className="image1" alt="" />
-          <img src="src/assets/img/about-4.jpg" className="image2" alt="" />
+          <img src="img/about-1.jpg" className="image1" alt="" />
+          <img src="img/about-4.jpg" className="image2" alt="" />
         </div>
         <div className="box2">
-          <img src="src/assets/img/about-3.jpg" className="image3" alt="" />
-          <img src="src/assets/img/about-2.jpg" alt="" className="image4" />
+          <img src="img/about-3.jpg" className="image3" alt="" />
+          <img src="img/about-2.jpg" alt="" className="image4" />
         </div>
       </div>
       <div className="about-us-container">
