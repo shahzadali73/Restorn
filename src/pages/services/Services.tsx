@@ -1,19 +1,30 @@
-import "./Section2.css";
 import { VscAccount } from "react-icons/vsc";
 import { ImSpoonKnife } from "react-icons/im";
 import { SlBasket } from "react-icons/sl";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
+import Wrapper from "../../Wrapper";
+import "../../css/Review.css";
 
 function Services() {
   return (
-    <div className="cards" id="card">
-      <Card name1="Master Cheif" logo={<VscAccount />} />
-      <Card name1="Quality Food" logo={<ImSpoonKnife />} />
-      <Card name1="Online Order" logo={<SlBasket />} />
-      <Card name1="24/7 Service" logo={<TfiHeadphoneAlt />} />
-    </div>
+    <Wrapper>
+      <ServicePage />
+    </Wrapper>
   );
 }
+
+export const ServicePage = () => {
+  return (
+    <>
+      <div className="cards" id="card">
+        <Card name1="Master Cheif" logo={<VscAccount />} />
+        <Card name1="Quality Food" logo={<ImSpoonKnife />} />
+        <Card name1="Online Order" logo={<SlBasket />} />
+        <Card name1="24/7 Service" logo={<TfiHeadphoneAlt />} />
+      </div>
+    </>
+  );
+};
 
 export default Services;
 

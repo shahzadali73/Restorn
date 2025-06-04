@@ -1,6 +1,19 @@
-import "./Section5.css";
+import Wrapper from "../../Wrapper";
+import "../../css/BookaTable.css";
 
 function BookaTable() {
+  return (
+    <>
+      <Wrapper>
+        <BookaTablePage />
+      </Wrapper>
+    </>
+  );
+}
+
+export default BookaTable;
+
+export function BookaTablePage() {
   return (
     <>
       <div className="s5-main-cont">
@@ -28,7 +41,7 @@ function BookaTable() {
             </div>
             <div className="date-no">
               <input
-                type="datetime-local"
+                type="date"
                 className="date-time"
                 placeholder="Date & time"
               />
@@ -38,11 +51,13 @@ function BookaTable() {
                 placeholder="No Of People"
               />
             </div>
-            <input
-              type="description"
-              placeholder="Special request"
-              className="text-area"
-            />
+            <div className="discri">
+              <input
+                type="description"
+                placeholder="Special request"
+                className="text-area"
+              />
+            </div>
             <div className="book1">
               <button className="book-now1">BOOK NOW</button>
             </div>
@@ -52,5 +67,3 @@ function BookaTable() {
     </>
   );
 }
-
-export default BookaTable;

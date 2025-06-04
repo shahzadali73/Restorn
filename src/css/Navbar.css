@@ -36,7 +36,7 @@ nav {
     background-color: #0F172B;
     border-bottom: 1px solid #eaeaea;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    
+    position: sticky;
     width: 100%;
     top: 0;
     z-index: 1000;

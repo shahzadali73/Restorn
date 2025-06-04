@@ -1,5 +1,5 @@
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Navbar from "./pages/navbar/Navbar";
+import Footer from "./pages/footer/Footer";
 
 function Wrapper({ children }: any) {
   return (

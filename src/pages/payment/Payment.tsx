@@ -1,7 +1,21 @@
-import "./Payment.css";
+import Wrapper from "../../Wrapper";
+// import "./Payment.css";
+import "../../css/Payment.css";
 import { FaCircleCheck } from "react-icons/fa6";
 
 function Payment() {
+  return (
+    <>
+      <Wrapper>
+        <PaymentPage />
+      </Wrapper>
+    </>
+  );
+}
+
+export default Payment;
+
+export function PaymentPage() {
   return (
     <>
       <div className="payment-main-div">
@@ -166,5 +180,3 @@ function Payment() {
     </>
   );
 }
-
-export default Payment;

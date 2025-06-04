@@ -1,5 +1,6 @@
-import "./FoodDetail.css";
+// import "./FoodDetail.css";
 import { CiStar } from "react-icons/ci";
+import "../../css/FoodDetail.css";
 
 function FoodDetail() {
   return (

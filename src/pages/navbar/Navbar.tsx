@@ -1,4 +1,5 @@
-import "./Navbar.css";
+// import "./Navbar.css";
+import "../../css/Navbar.css";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
@@ -19,12 +20,15 @@ function Navbar() {
     <>
       <div className="navbar-container">
         <div className="logo ">Restorn</div>
-        {/* <GiHamburgerMenu className="teenline" /> */}
-        {!toggle ? (
+
+        {/* {!toggle ? (
           <MdCancel className="cancel" onClick={cancelbtn} />
         ) : (
           <GiHamburgerMenu className="teenline" onClick={handleHanm} />
-        )}
+        )} */}
+        <a href="#" className="teenline" onClick={handleHanm}>
+          {toggle ? <GiHamburgerMenu /> : <MdCancel />}
+        </a>
 
         {!toggle ? (
           <div className="extra-nav active">
@@ -32,7 +36,7 @@ function Navbar() {
             <a className="a-btn" href="">
               Home
             </a>
-            <a className="a-btn" href="">
+            <a className="a-btn" href="/about">
               About
             </a>
             <a className="a-btn" href="">
@@ -52,22 +56,22 @@ function Navbar() {
           </div>
         ) : (
           <div className="nav-bar">
-            <a className="a-btn" href="">
+            <a className="a-btn" href="/">
               Home
             </a>
-            <a className="a-btn" href="">
+            <a className="a-btn" href="/aboutus">
               About
             </a>
-            <a className="a-btn" href="">
+            <a className="a-btn" href="/services">
               Services
             </a>
-            <a className="a-btn" href="">
+            <a className="a-btn" href="/foodmenu">
               Menu
             </a>
-            <a className="a-btn" href="">
+            <a className="a-btn" href=" /bookatable ">
               Contact
             </a>
-            <a className="a-btn" href="">
+            <a className="a-btn" href="/bookatable">
               <button className="cta-btn">
                 <h3>Book A Table</h3>
               </button>

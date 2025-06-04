@@ -62,6 +62,6 @@
 .cards {
     display: flex;
     justify-content: space-around;
-    padding: 25px;
-    margin-top: 60px;
+
+    padding-top: 50px;
 }

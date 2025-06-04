@@ -1,0 +1,249 @@
+.main-footer {
+  height: auto !important;
+
+  width: 100%;
+  background-color: #0f172b;
+  padding-top: 25px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  padding-bottom: 15px !important;
+}
+
+.company {
+  /* text-align: center; */
+  height: 220px;
+  width: 100%;
+  max-width: 291px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.company-name {
+  color: #fea116;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.company-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about-foo {
+  color: #fff;
+  border-bottom: none;
+  font-family: Nunito, sans-serif;
+}
+
+.reservartion {
+  color: #fff;
+  border-bottom: none;
+  font-family: Nunito, sans-serif;
+}
+
+.contact-foo {
+  color: #fff;
+  border-bottom: none;
+  font-family: Nunito, sans-serif;
+}
+
+.pravicy1 {
+  color: #fff;
+  border-bottom: none;
+  font-family: Nunito, sans-serif;
+}
+
+.term {
+  color: #fff;
+  border-bottom: none;
+  font-family: Nunito, sans-serif;
+}
+
+.contact-detail2 {
+  height: auto;
+  width: 100%;
+  max-width: 291px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact2 {
+  color: #fea116;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.location-foo {
+  display: flex;
+  gap: 15px;
+}
+
+.loc {
+  color: #fff;
+  height: 20px;
+  width: 100%;
+  max-width: 20px;
+}
+
+.addres {
+  color: #fff;
+  font-family: Nunito, sans-serif;
+}
+
+.office-number {
+  display: flex;
+  gap: 15px;
+}
+
+.num-logo {
+  color: #fff;
+  height: 20px;
+  width: 100%;
+  max-width: 20px;
+}
+
+.num {
+  color: #fff;
+  font-family: Nunito, sans-serif;
+}
+
+.office-mail {
+  display: flex;
+  gap: 15px;
+}
+
+.logo-mail {
+  color: #fff;
+  height: 20px;
+  width: 100%;
+  max-width: 20px;
+}
+
+.mail1 {
+  color: #fff;
+  font-family: Nunito, sans-serif;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  max-width: 220px;
+  gap: 14px;
+}
+
+.logoo {
+  height: 30px;
+  width: 100%;
+  max-width: 30px;
+  color: #fff;
+
+  background-color: #0f172b;
+}
+
+.cont-div {
+  position: relative;
+  left: 10px;
+}
+
+.company-box a {
+  text-decoration: none;
+}
+
+.social-box {
+  height: 49px;
+  max-width: 49px;
+  width: 100%;
+  max-width: 100%;
+  border: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.opening {
+  height: 220px;
+  width: 100%;
+  max-width: 291px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.opening-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.opening1 {
+  color: #fea116;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.news {
+  height: 220px;
+  width: 100%;
+  max-width: 291px;
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #fff;
+}
+
+.news-box {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.newsletter {
+  color: #fea116;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.input-box {
+  max-width: 243px;
+  width: 100%;
+
+  height: 57px;
+  padding: 16px 48px 16px 24px;
+}
+
+.sign-up {
+  color: #fff;
+  background-color: #fea116;
+  height: 36px;
+  width: 100%;
+  width: 100%;
+  max-width: 85px;
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+  position: relative;
+  left: 147px;
+  bottom: 66px;
+  border-color: #fea116;
+  box-shadow: none;
+}
