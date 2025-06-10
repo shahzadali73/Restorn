@@ -27,7 +27,7 @@ import Aboutus, { AboutUsPage } from "./pages/about-us/Aboutus";
 import BookaTable, { BookaTablePage } from "./pages/book-a-table/BookaTable";
 import Payment from "./pages/payment/Payment";
 import FoodDetail from "./pages/food-detail/FoodDetail";
-import Menu from "./pages/menu/Menu";
+// import Menu from "./pages/menu/Menu";
 import FoodMenu, { FoodItemPage } from "./pages/food-menu/FoodMenu";
 import Services, { ServicePage } from "./pages/payment/services/Services";
 
