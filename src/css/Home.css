@@ -71,7 +71,7 @@ h1 {
 }
 
 .hero-section {
-  background-image: url(img/food.png);
+  background-image: url(../assets/images/food.png);
 
   background-size: cover;
   width: 100%;
