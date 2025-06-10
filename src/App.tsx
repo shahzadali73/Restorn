@@ -72,7 +72,6 @@ const Restro = () => {
         <BookaTablePage />
         <OurTeamPage />
         <ReviewPage />
-        <Menu></Menu>
       </Wrapper>
     </>
   );
