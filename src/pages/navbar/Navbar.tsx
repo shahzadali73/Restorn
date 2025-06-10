@@ -3,6 +3,7 @@ import "../../css/Navbar.css";
 import { useState } from "react";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { MdCancel } from "react-icons/md";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const [] = useState("");
@@ -52,26 +53,26 @@ function Navbar() {
           </div>
         ) : (
           <div className="nav-bar">
-            <a className="a-btn" href="/">
+            <Link to="/" className="a-btn">
               Home
-            </a>
-            <a className="a-btn" href="/aboutus">
+            </Link>
+            <Link className="a-btn" to="/aboutus">
               About
-            </a>
-            <a className="a-btn" href="/services">
+            </Link>
+            <Link className="a-btn" to="/services">
               Services
-            </a>
-            <a className="a-btn" href="/foodmenu">
+            </Link>
+            <Link className="a-btn" to="/foodmenu">
               Menu
-            </a>
-            <a className="a-btn" href=" /bookatable ">
+            </Link>
+            <Link className="a-btn" to=" /bookatable ">
               Contact
-            </a>
-            <a className="a-btn" href="/bookatable">
+            </Link>
+            <Link className="a-btn" to="/bookatable">
               <button className="cta-btn">
                 <h3>Book A Table</h3>
               </button>
-            </a>
+            </Link>
           </div>
         )}
       </div>
