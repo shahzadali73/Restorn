@@ -42,7 +42,7 @@ export function OurTeamPage() {
             <h3 className="team">Team Member</h3>
           </div>
           <div>
-            <h2 className="master">Our Master Cheif</h2>
+            <h2 className="master">Our Master Chef</h2>
           </div>
         </div>
         <div className="master-card">

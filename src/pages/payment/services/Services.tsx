@@ -18,7 +18,7 @@ export const ServicePage = () => {
   return (
     <>
       <div className="cards" id="card">
-        <Card name1="Master Cheif" logo={<VscAccount />} />
+        <Card name1="Master Chef" logo={<VscAccount />} />
         <Card name1="Quality Food" logo={<ImSpoonKnife />} />
         <Card name1="Online Order" logo={<SlBasket />} />
         <Card name1="24/7 Service" logo={<TfiHeadphoneAlt />} />

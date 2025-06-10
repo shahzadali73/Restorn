@@ -31,7 +31,7 @@ export function Reviewcard() {
           <img src="img/testimonial-1.jpg" className="const-img" alt="" />
           <div className="jhon2">
             {" "}
-            <h3 className="client-name1">Jhon</h3>
+            <h3 className="client-name1">Jenny</h3>
             <h5 className="client-profession1">Profession</h5>
           </div>
         </div>

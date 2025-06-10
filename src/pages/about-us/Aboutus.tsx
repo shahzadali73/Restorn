@@ -58,7 +58,7 @@ export function AboutUsPage() {
             </div>
 
             <div className="container-number2">
-              <h2 className="year">50</h2> <p>Poplur Master Cheif</p>
+              <h2 className="year">50</h2> <p>Poplur Master Chef</p>
             </div>
           </div>
           <button className="btn-read">READ MORE</button>

@@ -22,7 +22,7 @@ export function Dinner({ logo1 }: any) {
     <>
       <div className="cup">
         <div className="logo-cup">{logo1} </div>
-        <div className="type">Breack Fast</div>
+        <div className="type">Break Fast</div>
       </div>
     </>
   );
