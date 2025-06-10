@@ -2,8 +2,9 @@ import { VscAccount } from "react-icons/vsc";
 import { ImSpoonKnife } from "react-icons/im";
 import { SlBasket } from "react-icons/sl";
 import { TfiHeadphoneAlt } from "react-icons/tfi";
-import Wrapper from "../../Wrapper";
-import "../../css/Review.css";
+// import Wrapper from "../../Wrapper";
+// import "../../css/Review.css";
+import Wrapper from "../../../Wrapper";
 
 function Services() {
   return (

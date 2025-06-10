@@ -1,10 +1,25 @@
 // import "./FoodDetail.css";
 import { CiStar } from "react-icons/ci";
 import "../../css/FoodDetail.css";
+import Wrapper from "../../Wrapper";
+// import { Link } from "react-router-dom";
 
 function FoodDetail() {
   return (
     <>
+      <Wrapper>
+        <FoodDetail1 />
+      </Wrapper>
+    </>
+  );
+}
+
+export default FoodDetail;
+
+export function FoodDetail1() {
+  return (
+    <>
+      {/* <Link to="/fooddetail"> */}
       <div className="foo-maindiv1">
         <div className="img-foo1">
           <img
@@ -66,8 +81,7 @@ function FoodDetail() {
           <button className="add-to">ADD TO CART</button>
         </div>
       </div>
+      {/* </Link> */}
     </>
   );
 }
-
-export default FoodDetail;

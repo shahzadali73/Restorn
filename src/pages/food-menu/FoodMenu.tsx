@@ -13,6 +13,7 @@ function FoodMenu() {
     </>
   );
 }
+import { Link } from "react-router-dom";
 
 export default FoodMenu;
 
@@ -30,23 +31,24 @@ export function Dinner({ logo1 }: any) {
 export function Fooditem({ name2 }: any) {
   return (
     <>
-      <div className="food-item-detail">
-        <div className="food-img">
-          <img src="img/menu-1.jpg" alt="" />
-        </div>
-        <div className="foo-detail">
-          <div className="price-food">
-            {" "}
-            <h2 className="food-name">{name2}</h2>{" "}
-            <h3 className="food-price">$150</h3>
+      <Link to="/fooddetail" className="r5">
+        <div className="food-item-detail">
+          <div className="food-img">
+            <img src="img/menu-1.jpg" alt="" />{" "}
           </div>
-          <div className="bor"></div>
-          <p className="food-detail">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat,
-            nisi.
-          </p>
+          <div className="foo-detail">
+            <div className="price-food">
+              <h2 className="food-name">{name2}</h2>{" "}
+              <h3 className="food-price">$150</h3>
+            </div>
+            <div className="bor"></div>
+            <p className="food-detail">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repellat, nisi.
+            </p>
+          </div>
         </div>
-      </div>
+      </Link>
     </>
   );
 }

@@ -16,16 +16,20 @@ function Home() {
     </Wrapper>
   );
 }
-import FoodMenu, { FoodItemPage } from "./pages/food-menu/FoodMenu";
+// import FoodMenu, { Fooditem, FoodItemPage } from "./pages/food-menu/FoodMenu";
 
 import OurTeam, { OurTeamPage } from "./pages/our-teams/OurTeam";
 import Review, { ReviewPage } from "./pages/review/Review";
 
 import AddToCart1 from "./pages/add-to-cart/AddToCart";
-import Services, { ServicePage } from "./pages/services/Services";
+// import Services, { ServicePage } from "./pages/services/Services";
 import Aboutus, { AboutUsPage } from "./pages/about-us/Aboutus";
 import BookaTable, { BookaTablePage } from "./pages/book-a-table/BookaTable";
 import Payment from "./pages/payment/Payment";
+import FoodDetail from "./pages/food-detail/FoodDetail";
+import Menu from "./pages/menu/Menu";
+import FoodMenu, { FoodItemPage } from "./pages/food-menu/FoodMenu";
+import Services, { ServicePage } from "./pages/payment/services/Services";
 
 function App() {
   return (
@@ -51,6 +55,7 @@ const CompRouter = () => {
         <Route path="/Review" element={<Review />} />
         <Route path="/payment" element={<Payment />} />
         <Route path="/addtocart" element={<AddToCart1 />} />
+        <Route path="/fooddetail" element={<FoodDetail />} />
       </Routes>
     </BrowserRouter>
   );
@@ -67,6 +72,7 @@ const Restro = () => {
         <BookaTablePage />
         <OurTeamPage />
         <ReviewPage />
+        <Menu></Menu>
       </Wrapper>
     </>
   );

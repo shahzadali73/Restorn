@@ -12,10 +12,6 @@ function Navbar() {
     togglebotton(!toggle);
   }
 
-  function cancelbtn() {
-    togglebotton(!toggle);
-  }
-
   return (
     <>
       <div className="navbar-container">
